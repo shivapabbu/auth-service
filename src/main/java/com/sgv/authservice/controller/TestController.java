@@ -32,4 +32,9 @@ public class TestController {
 	public String adminAccess() {
 		return "Admin Board.";
 	}
+
+	@GetMapping("/ss")
+	public String testAccess(){
+		return "ss";
+	}
 }
